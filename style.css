@@ -6,11 +6,16 @@ h1 {
     text-align: center;
 }
 
+img {
+    vertical-align: bottom; /* fixes small padding at the bottom of div*/
+}
+
 .playerSide {
     float: left;
     margin: 300px 0 0 300px;
 
     border: 1px solid black;
+    
 }
 
 .computerSide {
