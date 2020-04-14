@@ -10,16 +10,29 @@ img {
     vertical-align: bottom; /* fixes small padding at the bottom of div*/
 }
 
+
 .playerSide {
     float: left;
-    margin: 300px 0 0 300px;
-
+    margin: 100px 0 0 300px;
+    height: 350px;
     border: 1px solid black;
-    
+    text-align: center;    
 }
 
+ 
+.playerOptions {
+    margin-top: 50px;
+}
+
+.computerOptions {
+    margin-top: 50px;
+}
+
+
 .computerSide {
-    float:right;
-    margin: 300px 300px 0 0;
+    float: right;
+    margin: 100px 300px 0 0;
+    height: 350px;
     border: 1px solid black;
+    text-align: center;
 }

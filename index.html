@@ -3,20 +3,24 @@
     <title>Rock Paper Scissors game</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="main.js"></script>
+    
 </head>
 <body>
     <h1>Rock Paper Scissors</h1>
     
     <div class="playerSide">
-            <div class="playerOptions">
-            <img src="img/rock-l.png" height="100px" alt="Player's rock">
-            <img src="img/paper-l.png" height="100px" alt="Player's paper">
-            <img src="img/scissors-l.png" height="100px" alt="Player's scissors">
+        <img class="selectedPlayer" height="200px" src="">
+        
+        <div class="playerOptions">
+            <img class="playerImg" src="img/rock-l.png" height="100px" alt="Player's rock">
+            <img class="playerImg" src="img/paper-l.png" height="100px" alt="Player's paper">
+            <img class="playerImg" src="img/scissors-l.png" height="100px" alt="Player's scissors">
         </div>
     </div>
 
     <div class="computerSide">
+        <img class="selectedComputer" height="200px" src="">
+
         <div class="computerOptions">
             <img src="img/scissors-r.png" height="100px" alt="Computer's scissors">  
             <img src="img/paper-r.png" height="100px" alt="Computer's paper">
@@ -24,8 +28,7 @@
         </div>  
     </div>
 
+    
 
-
-
-
+    <script src="main.js"></script>
 </body>
