@@ -8,24 +8,39 @@
 <body>
     <h1>Rock Paper Scissors</h1>
     
-    <div class="playerSide">
-        <img class="selectedPlayer" height="200px" src="">
-        
-        <div class="playerOptions">
-            <img class="playerImg" src="img/rock-l.png" height="100px" alt="Player's rock">
-            <img class="playerImg" src="img/paper-l.png" height="100px" alt="Player's paper">
-            <img class="playerImg" src="img/scissors-l.png" height="100px" alt="Player's scissors">
+    <div class="main">
+        <div class="playerSide">
+            <img class="selectedPlayer" width="200px" src="">
+            
+            <p class="playerScore"></p>
+
+            <div class="playerOptions">
+                <img class="playerImg" src="img/rock-l.png" height="100px" alt="Player's rock">
+                <img class="playerImg" src="img/paper-l.png" height="100px" alt="Player's paper">
+                <img class="playerImg" src="img/scissors-l.png" height="100px" alt="Player's scissors">
+            </div>
         </div>
-    </div>
+    
+        <div class="result">
+            <img class="resultImage" height=200px src="">
+            <p></p> <!-- final result is shown here -->
+            <br>
+            <button hidden="none">Start new game</button>
+        </div>
+    
+        <div class="computerSide">
+            <img class="selectedComputer" width="200px"src="">
+    
+            <p class="computerScore"></p>
 
-    <div class="computerSide">
-        <img class="selectedComputer" height="200px" src="">
+            <div class="computerOptions">
+                <img src="img/scissors-r.png" height="100px" alt="Computer's scissors">  
+                <img src="img/paper-r.png" height="100px" alt="Computer's paper">
+                <img src="img/rock-r.png" height="100px" alt="Computer's rock">
+            </div>  
+        </div>
+    
 
-        <div class="computerOptions">
-            <img src="img/scissors-r.png" height="100px" alt="Computer's scissors">  
-            <img src="img/paper-r.png" height="100px" alt="Computer's paper">
-            <img src="img/rock-r.png" height="100px" alt="Computer's rock">
-        </div>  
     </div>
 
     

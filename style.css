@@ -1,38 +1,43 @@
 body {
-    background-color: rgb(163, 150, 150);
+    background-color: rgb(184, 180, 180);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     text-align: center;
 }
 
-img {
-    vertical-align: bottom; /* fixes small padding at the bottom of div*/
+button {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+.main {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 400px;
+    margin-top: 50px;
+}
 
 .playerSide {
-    float: left;
-    margin: 100px 0 0 300px;
-    height: 350px;
-    border: 1px solid black;
-    text-align: center;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
-
- 
-.playerOptions {
-    margin-top: 50px;
-}
-
-.computerOptions {
-    margin-top: 50px;
-}
-
 
 .computerSide {
-    float: right;
-    margin: 100px 300px 0 0;
-    height: 350px;
-    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    
+} 
+
+.result {
+    width: 200px;
     text-align: center;
 }
